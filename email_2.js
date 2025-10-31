@@ -1,5 +1,5 @@
 <script>
-    const mailData = [
+        const mailData = [
             {
                 id: 1,
                 sender: "張小明",
@@ -50,8 +50,8 @@
                 time: "10月15日",
                 unread: false
             }
+        ];
 
-    ];
 
     function renderMailList() {
         const mailItems = document.getElementById('mailItems');
